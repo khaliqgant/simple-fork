@@ -10,4 +10,4 @@ to fork that method and offload that process.
 
 # References
 * [Child Process Documentation](https://nodejs.org/api/child_process.html)
-* Largely a fork of [node-worker-farm](https://github.com/rvagg/node-worker-farm)
+* Largely a simplified fork of [node-worker-farm](https://github.com/rvagg/node-worker-farm)

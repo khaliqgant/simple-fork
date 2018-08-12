@@ -10,7 +10,8 @@
   },
   "scripts": {
     "tsc": "./node_modules/.bin/tsc",
-    "test": "npm run tsc && node ./dist/test/function.test.js"
+    "test": "npm run tsc && node ./dist/test/function.test.js",
+    "testSame": "npm run tsc && node -e \"require('./dist/test/sameFunction.test').test()\""
   },
   "devDependencies": {
     "@types/chai": "^4.1.4",
