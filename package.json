@@ -1,0 +1,24 @@
+{
+  "name": "simple-fork",
+  "version": "1.0.0",
+  "description": "Forking with no extra effort",
+  "main": "./dist/lib/index.js",
+  "author": "Khaliq Gant <khaliqgant@gmail.com>",
+  "license": "MIT",
+  "engines": {
+    "node": "^10"
+  },
+  "scripts": {
+    "tsc": "./node_modules/.bin/tsc",
+    "test": "npm run tsc && node ./dist/test/function.test.js"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.1.4",
+    "@types/node": "^10.5.8",
+    "chai": "^4.1.2",
+    "ts-node": "^7.0.1"
+  },
+  "dependencies": {
+    "typescript": "^3.0.1"
+  }
+}
