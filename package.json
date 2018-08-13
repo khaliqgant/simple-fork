@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Forking with no extra effort",
   "main": "./dist/lib/index.js",
+  "types": "./dist/lib/index.d.ts",
   "author": "Khaliq Gant <khaliqgant@gmail.com>",
   "license": "MIT",
   "engines": {
