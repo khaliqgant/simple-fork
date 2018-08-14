@@ -1,6 +1,6 @@
 {
   "name": "simple-fork",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Forking with no extra effort",
   "main": "./dist/lib/index.js",
   "types": "./dist/lib/index.d.ts",
